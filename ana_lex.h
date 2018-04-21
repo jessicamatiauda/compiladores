@@ -28,9 +28,9 @@ typedef char * string;
 string nombres_comp [] = {"L_CORCHETE","R_CORCHETE", "L_LLAVE", "R_LLAVE", "COMA", "DOS_PUNTOS" , "LITERAL_CADENA", "LITERAL_NUM", "PR_TRUE","PR_FALSE","PR_NULL"};
 /************* Estructuras ********************/
 typedef struct {
-	int compLex;
-	string lexema;
-    string componente;
+	int compLex; //valor numerico del lexema 
+	string lexema; //es el valor literal encontrado 
+    string componente; // es l_llave definido arriba hablando mal -.-
 } token;
 
 /************* Prototipos ********************/

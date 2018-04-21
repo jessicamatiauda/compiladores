@@ -60,7 +60,7 @@ void sigLex()
 		{
 			//incrementar el numero de linea
 			numLinea++;
-            //printf("\n");
+            printf("\n");
 		}
 
 		else if (isalpha(c))
@@ -336,7 +336,7 @@ void palabra_reservada(char id []){
        	error(cad);
     }
 }
-/*int main(int argc,char* args[])
+int main(int argc,char* args[])
 {
 	// inicializar analizador lexico
 	
@@ -359,4 +359,4 @@ void palabra_reservada(char id []){
 	}
 
 	return 0;
-}*/
+}
