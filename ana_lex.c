@@ -51,10 +51,12 @@ void sigLex()
 	while((c=fgetc(archivo))!=EOF)
 	{
 		if (c==' ')
-            continue;
+            printf(" ");
+			//continue;
                
         else if(c=='\t')        
-            continue;
+            printf("\t");
+			//continue;
 
 		else if(c=='\n')
 		{
