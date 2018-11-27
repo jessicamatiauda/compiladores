@@ -279,7 +279,7 @@ void attribute_value(int syncset[]){
 
 
 
-/*Main*/
+/*Main
 int main (int argc,char* args[]){
     if(argc > 1)
     {
@@ -299,3 +299,4 @@ int main (int argc,char* args[]){
 
     return 0;
 }
+*/
